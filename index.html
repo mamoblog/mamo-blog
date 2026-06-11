@@ -1,47 +1,119 @@
-```html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mamo Blog</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mamo Blog</title>
 
-    <style>
-        body{
-            font-family: Arial, sans-serif;
-            text-align:center;
-            padding:50px;
-            background:#f5f7fb;
-        }
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-        h1{
-            color:#2563eb;
-        }
+body{
+    font-family: sans-serif;
+    background:#f5f7fb;
+    color:#333;
+}
 
-        .card{
-            max-width:700px;
-            margin:auto;
-            background:white;
-            padding:30px;
-            border-radius:12px;
-            box-shadow:0 4px 12px rgba(0,0,0,.1);
-        }
-    </style>
+header{
+    background:#2563eb;
+    color:white;
+    padding:20px;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h1{
+    font-size:3rem;
+    color:#2563eb;
+}
+
+.hero p{
+    margin-top:20px;
+    font-size:1.2rem;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    background:#2563eb;
+    color:white;
+    padding:12px 24px;
+    border-radius:8px;
+    text-decoration:none;
+}
+
+.posts{
+    padding:60px 0;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,.1);
+    margin-bottom:20px;
+}
+
+footer{
+    background:#111827;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+</style>
 </head>
+
 <body>
 
-    <div class="card">
-        <h1>🚀 Mamo Blog</h1>
-
-        <p>
-            GitHub Pages 公開テスト成功！
-        </p>
-
-        <p>
-            このブログは GitHub Pages で公開されています。
-        </p>
+<header>
+    <div class="container">
+        <h2>Mamo Blog</h2>
     </div>
+</header>
+
+<section class="hero">
+    <h1>Mamo Blog</h1>
+    <p>日々の学びや情報を発信する個人ブログ</p>
+    <a href="#" class="btn">記事を見る</a>
+</section>
+
+<section class="posts">
+    <div class="container">
+
+        <div class="card">
+            <h3>最新記事サンプル ①</h3>
+            <p>ここに記事の概要が表示されます。</p>
+        </div>
+
+        <div class="card">
+            <h3>最新記事サンプル ②</h3>
+            <p>ここに記事の概要が表示されます。</p>
+        </div>
+
+        <div class="card">
+            <h3>最新記事サンプル ③</h3>
+            <p>ここに記事の概要が表示されます。</p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Mamo Blog</p>
+</footer>
 
 </body>
 </html>
-```
