@@ -1,0 +1,134 @@
+```html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>お問い合わせ | Mamo Blog</title>
+
+<style>
+body{
+    font-family:sans-serif;
+    background:#f5f7fb;
+    margin:0;
+    color:#333;
+}
+
+header{
+    background:#2563eb;
+    color:white;
+    padding:20px;
+}
+
+.container{
+    width:90%;
+    max-width:800px;
+    margin:auto;
+}
+
+header a{
+    color:white;
+    text-decoration:none;
+}
+
+.contact-box{
+    background:white;
+    padding:40px;
+    margin:40px auto;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,.1);
+}
+
+h1{
+    text-align:center;
+}
+
+.form-group{
+    margin-bottom:20px;
+}
+
+label{
+    display:block;
+    margin-bottom:8px;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    box-sizing:border-box;
+}
+
+button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:12px 24px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
+
+footer{
+    background:#111827;
+    color:white;
+    text-align:center;
+    padding:30px;
+    margin-top:50px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <h2><a href="index.html">Mamo Blog</a></h2>
+    </div>
+</header>
+
+<div class="container">
+
+    <div class="contact-box">
+
+        <h1>お問い合わせ</h1>
+
+        <form>
+
+            <div class="form-group">
+                <label>お名前</label>
+                <input type="text">
+            </div>
+
+            <div class="form-group">
+                <label>メールアドレス</label>
+                <input type="email">
+            </div>
+
+            <div class="form-group">
+                <label>お問い合わせ内容</label>
+                <textarea rows="6"></textarea>
+            </div>
+
+            <button type="submit">
+                送信する
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Mamo Blog</p>
+</footer>
+
+</body>
+</html>
+```
